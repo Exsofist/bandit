@@ -1,0 +1,200 @@
+@charset "UTF-8";
+header {
+     
+    background: url(images/blueroad2.jpg) no-repeat center center;
+    background-size: cover; 
+    height: 23em;
+   
+ }
+header h1 {
+    font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #940505;
+    text-shadow: .1em .1em .1em lightslategray;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+                  }
+     header h1 strong {
+         font-size: 55px;
+         color: black;}
+header h2 {
+     font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #940505;
+    text-shadow: .1em .1em .1em lightslategray;
+    text-align: center;
+    margin-top: 0;
+      }
+#atmosphera {display: block; 
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 0%;
+         margin-bottom: auto;
+         }
+header p {
+     font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #940505;
+    text-align: center;
+    margin-bottom: 0;
+    
+ }
+body {
+     background-color: whitesmoke;
+     padding: 0;
+     margin: 0;       
+ }
+#word { color: black;}
+
+#band h1 {
+ font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+ 
+    text-align: center;
+    margin-bottom: 0;
+ }
+#band li {/*display: inline-block;*/
+ list-style-type: none;
+          
+      }
+.text a {border-style: solid;
+     border-radius: 50px;
+     border-color: #940505;
+     background-color: #940505;
+     color: azure; 
+     line-height: 3em;
+                        
+}
+.text a:hover {background-color: black; border-color: black; }
+.text   {float: inline-end;
+     text-align: justify;
+     margin: 7px 7px 7px 7px;
+     width: 200px;
+     vertical-align: top;
+     font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+ }
+#Danik {
+display: block;
+width: min-content;
+float: left;
+margin-left: 8em;
+}
+#Oleh {display: block;
+width: min-content;
+float: left;
+}
+#Vital {
+display: block;
+width: min-content;
+float: left;
+}
+#Oksana {
+display: block;
+width: min-content;
+float: left;
+}
+#Anna {
+display: inline-block;
+width: min-content;
+
+}
+a {
+ text-decoration: none;
+}
+
+#history h1 {
+ font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0;
+ }
+ #history p { font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+ font-size: larger;
+ text-align: justify;
+ margin: 10px 50px;
+
+}
+#history a {border-style: solid;
+     border-radius: 50px;
+     border-color: #940505;
+     background-color: #940505;
+     color: azure; 
+     line-height: 3em;
+     font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+     display: inline-block;
+     margin-left: 42%;
+     margin-right: auto;
+     white-space: nowrap;
+                        
+}
+#history a:hover {background-color: black; border-color: black; }
+
+main p {
+    font-family: "Lobster", Georgia, 'Times New Roman', Times, serif; font-size: larger;
+    text-align: justify;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-bottom: .5em;
+    
+}
+main h1 {
+    font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+margin-top: 0;}
+#d1 {
+
+float: left;
+display: flex;
+flex-direction: column;
+position: absolute left;
+width: 20%;
+
+}
+#d2 {
+float: right;
+display: flex;
+flex-direction: column;
+position: absolute right;
+width: 20%;
+
+}
+.st {
+font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+}
+#home a:hover {background-color: black;}
+#home {float: left;
+text-decoration: none;
+border-style: solid;
+    border-radius: 40px;
+    border-color: #940505;
+    border-width: 1em;
+    background-color: #940505;
+    color: azure; 
+    font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    white-space: nowrap;
+    position: absolute;
+    top: 15em;
+    left: 4em;
+}
+
+
+#foot {display: inline-block;
+position:absolute;
+left: 23%;
+max-width: 1000px;
+          
+}
+
+#word { color: black;}
+footer { position:relative;
+    top: 20em;
+font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+color: #940505;
+}
