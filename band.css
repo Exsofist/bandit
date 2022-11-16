@@ -1,11 +1,15 @@
 @charset "UTF-8";
+html {box-sizing: border-box;
+   }
+   *, *:before, *:after {
+    box-sizing: inherit;
+  }
 header {
-     
     background: url(images/blueroad2.jpg) no-repeat center center;
-    background-size: cover; 
-    height: 23em;
-   
- }
+    background-size:cover;
+    height: 20em;
+    margin: -10px -10px 0 -10px;
+    }
 header h1 {
     font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -13,12 +17,15 @@ header h1 {
     color: #940505;
     text-shadow: .1em .1em .1em lightslategray;
     text-align: center;
+    margin-top: -10px;
     margin-bottom: 0;
-    margin-top: 0;
                   }
-     header h1 strong {
-         font-size: 55px;
-         color: black;}
+   header h1 strong {
+   font-size: 55px;
+   color: black;}
+
+   #word {color: black;}
+
 header h2 {
      font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -31,9 +38,27 @@ header h2 {
 #atmosphera {display: block; 
          margin-left: auto;
          margin-right: auto;
-         margin-top: 0%;
-         margin-bottom: auto;
+         margin-top: 0;
+         margin-bottom:auto;
          }
+
+.link a {border-style: solid;
+         border-radius: 25px;
+         border-color: #940505;
+         background-color: #940505;
+         color: azure; 
+         line-height: 2em;
+         display: block;
+         margin-top: 1em;
+         margin-left: 1em;
+         text-decoration: none;
+         font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+         width: max-content; 
+      }
+
+.link a:hover {background-color: black; border-color: black; }
+
+
 header p {
      font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -41,9 +66,100 @@ header p {
     color: #940505;
     text-align: center;
     margin-bottom: 0;
-    
+   
  }
-body {
+ main h1 {
+       font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+       font-weight: bolder;
+       color: black;
+       text-align: center;
+       margin-top: 0;
+       margin-bottom: 0;
+    }
+ #band {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  
+  }    
+.text { 
+    width: 200px;
+    text-align: justify;}
+
+ #band ul {
+ list-style-type: none;}
+
+ div {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    margin: 10px;
+   justify-content:flex-start;
+    width: 200px;
+ }
+ #history h1 {
+   font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      text-align: center;
+      margin-bottom: 0;
+   }
+   #history p { font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+      font-size: larger;
+      text-align: justify;
+      margin: 10px 50px;
+     }
+   
+   .text {
+    font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+   }
+   
+   footer {
+   font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #940505;
+  text-size-adjust: small;
+  }
+  /*---AboutPages-----*/
+
+  .about {display: flex;}
+  .about p {
+   font-family: "Lobster", Georgia, 'Times New Roman', Times, serif; font-size: larger;
+    text-align: justify;
+    margin: 1em 1em;
+  }
+  .st {
+   font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
+   color: #940505;
+   }
+
+  #d1 {flex: 0 1 20%;}
+  #d2 {
+      flex: 0 1 20%;
+      order: 3;
+  }
+  #d3 {flex: 1 1 50%;}
+  #d4 {margin-top: 7.8em;
+      margin-left: 1em;}
+   #linkh a {display: block;
+      position:absolute;
+      top: 240px;
+      left: 40px;
+      text-decoration: none;
+      border-style: solid;
+    border-radius: 30px;
+    border-color: #940505;
+    border-width: .9em;
+    background-color: #940505;
+    color: azure; 
+    font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    white-space: nowrap;
+      
+   }
+   #linkh a:hover {background-color: black;
+      border-color: black;}
+
+/*body {
      background-color: whitesmoke;
      padding: 0;
      margin: 0;       
@@ -57,27 +173,12 @@ body {
  
     text-align: center;
     margin-bottom: 0;
- }
+ }*/
 #band li {/*display: inline-block;*/
- list-style-type: none;
+ /*list-style-type: none;
           
       }
-.text a {border-style: solid;
-     border-radius: 50px;
-     border-color: #940505;
-     background-color: #940505;
-     color: azure; 
-     line-height: 3em;
-                        
-}
-.text a:hover {background-color: black; border-color: black; }
-.text   {float: inline-end;
-     text-align: justify;
-     margin: 7px 7px 7px 7px;
-     width: 200px;
-     vertical-align: top;
-     font-family: "Lobster", Georgia, 'Times New Roman', Times, serif;
- }
+
 #Danik {
 display: block;
 width: min-content;
@@ -192,9 +293,10 @@ max-width: 1000px;
 }
 
 #word { color: black;}
-footer { position:relative;
+footer {
+    position:relative;
     top: 20em;
 font-family: "Rubik Wet Paint", Georgia, 'Times New Roman', Times, serif;
 text-align: center;
 color: #940505;
-}
+}*/
